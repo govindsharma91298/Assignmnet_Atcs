@@ -8,25 +8,25 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	<context:annotation-config></context:annotation-config>
+<!--  
+<bean class="com.SpringCoreAnnotation.SpringCoreAnnotation.Pizza" id="sleeping" >    
 
-<bean class="com.ia.springcore.Employee" id="sleeping" >    <!--Employee sleeping=new Employee();  -->
+<property name="pizzano" value="100"> </property>
+<property name="price" value="1323"> </property>
+ 
+<property name="Address" ref="add"> </property>
 
-<property name="empid" value="100"> </property>
-<property name="empname" value="sathya"> </property>
-<property name="empsal" value="1000"> </property>
 
+</bean> 
 
-</bean>
+<bean class="SpringCoreAnnotation.SpringCoreAnnotation.Address" id="add">    
 
-<bean class="com.ia.springcore.Address" id='govind'>
-
-<property name="housenum" value="45"> </property>
-<property name="colonyname" value="sanskar"> </property>
+<property name="hno" value="4512"> </property>
+<property name="colony" value="sandsms"> </property>
 <property name="city" value="jaipur"> </property>
 
 
-
 </bean>
-
+ -->
 
 </beans>

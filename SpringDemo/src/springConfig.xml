@@ -18,7 +18,7 @@
 
 </bean>
 
-<bean class="com.ia.springcore.Address" id='add'>
+<bean class="com.ia.springcore.Address" id='govind'>
 
 <property name="housenum" value="45"> </property>
 <property name="colonyname" value="sanskar"> </property>

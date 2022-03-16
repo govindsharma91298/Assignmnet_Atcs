@@ -8,7 +8,7 @@ public class Employee {
 	private String empname;
 	private int empsal;
 	
-	@Autowired
+	
 	Address add;
 
 	
@@ -54,7 +54,7 @@ public class Employee {
 	}
 
 
-
+	 @Autowired
 	public void setAdd(Address add) {
 		this.add = add;
 	}
@@ -66,7 +66,7 @@ public class Employee {
 	}
 
 	
-
+   
 	public Employee(int empid, String empname, int empsal, Address add) {
 		super();
 		this.empid = empid;
